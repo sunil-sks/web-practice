@@ -1,0 +1,23 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+/* parent child only for direct relation */
+.box > .done{
+    color: firebrick;
+}
+.box > p {
+    color: firebrick;
+  }
+/* somwehere under the div */
+.box li{
+    color: blue;
+}
+/* chaining */
+li.done{
+    color: seagreen;
+}
+/* Combination/hybrid */
+ul p.done{
+    font-size: 0.5rem;
+}
